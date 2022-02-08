@@ -58,6 +58,38 @@ namespace PdfResumeCreator
             educTitle.Alignment = Element.ALIGN_LEFT;
             pdfFile.Add(educTitle);
 
+            Paragraph educ1 = new Paragraph(finalJson.Education1);
+            educ1.Alignment = Element.ALIGN_LEFT;
+            pdfFile.Add(educ1);
+
+            Paragraph educ2 = new Paragraph(finalJson.Education2);
+            educ2.Alignment = Element.ALIGN_LEFT;
+            pdfFile.Add(educ2);
+
+            Paragraph workExpTitle = new Paragraph(finalJson.WorkExperienceTitle);
+            workExpTitle.Alignment = Element.ALIGN_LEFT;
+            pdfFile.Add(workExpTitle);
+
+            Paragraph workExp1 = new Paragraph(finalJson.WorkExperience1);
+            workExp1.Alignment = Element.ALIGN_LEFT;
+            pdfFile.Add(workExp1);
+
+            Paragraph skillsTitle = new Paragraph(finalJson.SkillsTitle);
+            skillsTitle.Alignment = Element.ALIGN_LEFT;
+            pdfFile.Add(skillsTitle);
+
+            Paragraph skill1 = new Paragraph(finalJson.Skill1);
+            skill1.Alignment = Element.ALIGN_LEFT;
+            pdfFile.Add(skill1);
+
+            Paragraph skill2 = new Paragraph(finalJson.Skill2);
+            skill2.Alignment = Element.ALIGN_LEFT;
+            pdfFile.Add(skill2);
+
+            Paragraph skill3 = new Paragraph(finalJson.Skill3);
+            skill3.Alignment = Element.ALIGN_LEFT;
+            pdfFile.Add(skill3);
+
             pdfFile.Close();
         }
         public class datagather
@@ -69,6 +101,14 @@ namespace PdfResumeCreator
             public string Divider { get; set; }
             public string Number { get; set; }
             public string EducationTitle { get; set; }
+            public string Education1 { get; set; }
+            public string Education2 { get; set; }
+            public string WorkExperienceTitle { get; set; }
+            public string WorkExperience1 { get; set; }
+            public string SkillsTitle { get; set; }
+            public string Skill1 { get; set; }
+            public string Skill2 { get; set; }
+            public string Skill3 { get; set; }
         }
     }
 }
