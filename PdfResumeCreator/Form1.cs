@@ -34,13 +34,29 @@ namespace PdfResumeCreator
             fullname.Alignment = Element.ALIGN_CENTER;
             pdfFile.Add(fullname);
 
+            Paragraph address = new Paragraph(finalJson.Address);
+            address.Alignment = Element.ALIGN_CENTER;
+            pdfFile.Add(address);
+
+            Paragraph number = new Paragraph(finalJson.Number);
+            number.Alignment = Element.ALIGN_CENTER;
+            pdfFile.Add(number);
+
+            Paragraph email = new Paragraph(finalJson.Email);
+            email.Alignment = Element.ALIGN_CENTER;
+            pdfFile.Add(email);
+
             Paragraph age = new Paragraph(finalJson.Age);
             age.Alignment = Element.ALIGN_CENTER;
             pdfFile.Add(age);
 
-            Paragraph address = new Paragraph(finalJson.Address);
-            address.Alignment = Element.ALIGN_CENTER;
-            pdfFile.Add(address);
+            Paragraph divider = new Paragraph(finalJson.Divider);
+            divider.Alignment = Element.ALIGN_CENTER;
+            pdfFile.Add(divider);
+
+            Paragraph educTitle = new Paragraph(finalJson.EducationTitle);
+            educTitle.Alignment = Element.ALIGN_LEFT;
+            pdfFile.Add(educTitle);
 
             pdfFile.Close();
         }
@@ -49,6 +65,10 @@ namespace PdfResumeCreator
             public string FullName { get; set; }
             public string Age { get; set; }
             public string Address { get; set; }
+            public string Email { get; set; }
+            public string Divider { get; set; }
+            public string Number { get; set; }
+            public string EducationTitle { get; set; }
         }
     }
 }
