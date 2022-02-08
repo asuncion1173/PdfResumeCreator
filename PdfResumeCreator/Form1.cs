@@ -29,12 +29,18 @@ namespace PdfResumeCreator
             Document pdfFile = new Document();
             PdfWriter.GetInstance(pdfFile, new FileStream(@"C:\Users\ASUNCION\source\repos\PdfResumeCreator\ASUNCION_JACOB.pdf", FileMode.Create));
             pdfFile.Open();
-            Paragraph fullname;
+            Paragraph fullname = new Paragraph(finalJson.FullName);
+            fullname.Alignment = Element.ALIGN_CENTER;
+            pdfFile.Add(fullname);
+            Paragraph age = new Paragraph(finalJson.Age);
+            age.Alignment = Element.ALIGN_CENTER;
+            pdfFile.Add(age);
             pdfFile.Close();
         }
         public class datagather
         {
             public string FullName { get; set; }
+            public string Age { get; set; }
         }
     }
 }

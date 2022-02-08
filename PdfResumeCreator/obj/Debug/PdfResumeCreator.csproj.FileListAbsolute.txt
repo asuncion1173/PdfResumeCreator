@@ -1,0 +1,15 @@
+C:\Users\ASUNCION\source\repos\PdfResumeCreator\PdfResumeCreator\bin\Debug\PdfResumeCreator.exe.config
+C:\Users\ASUNCION\source\repos\PdfResumeCreator\PdfResumeCreator\bin\Debug\PdfResumeCreator.exe
+C:\Users\ASUNCION\source\repos\PdfResumeCreator\PdfResumeCreator\bin\Debug\PdfResumeCreator.pdb
+C:\Users\ASUNCION\source\repos\PdfResumeCreator\PdfResumeCreator\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\ASUNCION\source\repos\PdfResumeCreator\PdfResumeCreator\bin\Debug\itextsharp.dll
+C:\Users\ASUNCION\source\repos\PdfResumeCreator\PdfResumeCreator\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ASUNCION\source\repos\PdfResumeCreator\PdfResumeCreator\bin\Debug\itextsharp.xml
+C:\Users\ASUNCION\source\repos\PdfResumeCreator\PdfResumeCreator\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ASUNCION\source\repos\PdfResumeCreator\PdfResumeCreator\obj\Debug\PdfResumeCreator.csproj.AssemblyReference.cache
+C:\Users\ASUNCION\source\repos\PdfResumeCreator\PdfResumeCreator\obj\Debug\PdfResumeCreator.Form1.resources
+C:\Users\ASUNCION\source\repos\PdfResumeCreator\PdfResumeCreator\obj\Debug\PdfResumeCreator.Properties.Resources.resources
+C:\Users\ASUNCION\source\repos\PdfResumeCreator\PdfResumeCreator\obj\Debug\PdfResumeCreator.csproj.GenerateResource.cache
+C:\Users\ASUNCION\source\repos\PdfResumeCreator\PdfResumeCreator\obj\Debug\PdfResumeCreator.csproj.CoreCompileInputs.cache
+C:\Users\ASUNCION\source\repos\PdfResumeCreator\PdfResumeCreator\obj\Debug\PdfResumeCreator.exe
+C:\Users\ASUNCION\source\repos\PdfResumeCreator\PdfResumeCreator\obj\Debug\PdfResumeCreator.pdb
