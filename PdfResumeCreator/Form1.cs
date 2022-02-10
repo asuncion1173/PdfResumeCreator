@@ -45,13 +45,21 @@ namespace PdfResumeCreator
             number.Alignment = Element.ALIGN_CENTER;
             pdfFile.Add(number);
 
-            Paragraph email = new Paragraph(finalJson.Email);
+            Paragraph email = new Paragraph(finalJson.Email + "\n\n");
             email.Alignment = Element.ALIGN_CENTER;
             pdfFile.Add(email);
 
-            Paragraph age = new Paragraph(finalJson.Age + "\n\n");
-            age.Alignment = Element.ALIGN_CENTER;
-            pdfFile.Add(age);
+            pdfFile.Add(separator);
+
+            Paragraph careerTitle = new Paragraph(finalJson.CareerTitle + "\n");
+            careerTitle.Font.Size = 18;
+            careerTitle.Alignment = Element.ALIGN_LEFT;
+            pdfFile.Add(careerTitle);
+
+            Paragraph career = new Paragraph(finalJson.Career + "\n\n");
+            career.IndentationLeft = 40;
+            career.Alignment = Element.ALIGN_LEFT;
+            pdfFile.Add(career);
 
             pdfFile.Add(separator);
 
@@ -106,16 +114,6 @@ namespace PdfResumeCreator
 
             pdfFile.Add(separator);
 
-            Paragraph careerTitle = new Paragraph(finalJson.CareerTitle + "\n");
-            careerTitle.Font.Size = 18;
-            careerTitle.Alignment = Element.ALIGN_LEFT;
-            pdfFile.Add(careerTitle);
-
-            Paragraph career = new Paragraph(finalJson.Career + "\n\n");
-            career.IndentationLeft = 40;
-            career.Alignment = Element.ALIGN_LEFT;
-            pdfFile.Add(career);
-
             iTextSharp.text.Image signatureimg = iTextSharp.text.Image.GetInstance(finalJson.Signature);
             signatureimg.ScalePercent(5f);
             signatureimg.Alignment = iTextSharp.text.Image.UNDERLYING | iTextSharp.text.Image.ALIGN_RIGHT;
@@ -127,11 +125,12 @@ namespace PdfResumeCreator
             pdfFile.Add(fullname1);
 
             pdfFile.Close();
+
+            MessageBox.Show("PDF has been created!");
         }
         public class datagather
         {
             public string FullName { get; set; }
-            public string Age { get; set; }
             public string Address { get; set; }
             public string Email { get; set; }
             public string Number { get; set; }
@@ -149,5 +148,6 @@ namespace PdfResumeCreator
             public string Career { get; set; }
 
         }
+
     }
 }
