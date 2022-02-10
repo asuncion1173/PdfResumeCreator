@@ -31,6 +31,7 @@ namespace PdfResumeCreator
             PdfWriter.GetInstance(pdfFile, new FileStream(@"C:\Users\ASUNCION\source\repos\PdfResumeCreator\ASUNCION_JACOB.pdf", FileMode.Create));
             pdfFile.Open();
 
+            // For black line separator in Resume
             LineSeparator separator = new LineSeparator(3f, 100f, BaseColor.BLACK, Element.ALIGN_CENTER, 1);
 
             Paragraph fullname = new Paragraph(finalJson.FullName);

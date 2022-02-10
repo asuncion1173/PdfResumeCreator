@@ -40,7 +40,7 @@ namespace PdfResumeCreator
             this.btnConvert.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnConvert.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnConvert.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnConvert.Location = new System.Drawing.Point(132, 135);
+            this.btnConvert.Location = new System.Drawing.Point(132, 142);
             this.btnConvert.Name = "btnConvert";
             this.btnConvert.Size = new System.Drawing.Size(86, 37);
             this.btnConvert.TabIndex = 0;
