@@ -3,16 +3,18 @@
     "Address": "No.1 ABCD Village, Quezon City",
     "Age": "Age: 21",
     "Number": "09123456789",
-    "Divider": "______________________________________________________________________________",
     "Email": "jacobasuncion123@yahoo.com",
     "EducationTitle": "Education",
-    "Education1" : "    Polytechnic University of the Philippines - 2017 to Current",
-    "Education2" : "    ABCD Academy - 2006 to 2017",
+    "Education1" : "Polytechnic University of the Philippines -                                    2017 to Current",
+    "Education2" : "ABCD Academy -                                                                         2006 to 2017",
     "WorkExperienceTitle": "Working Experience",
-    "WorkExperience1": "Intern at ABCD Inc. - 2019 to 2020",
+    "WorkExperience1": "Intern at ABCD Inc. -                                                                    2019 to 2020",
     "SkillsTitle": "Skills",
-    "Skill1": "Programming Languages - C#, C++, HTML, CSS",
+    "Skill1": "Programming Languages -     C#, C++, HTML, CSS",
     "Skill2": "Computer and Technology Knowledge",
-    "Skill3": "Microsoft Office and Adobe"
+    "Skill3": "Microsoft Office and Adobe",
+    "Signature": "Signature.png",
+    "CareerTitle": "Career Objective",
+    "Career": "To pursue a career in the software engineering industry, particularly specializing in financial technology, that will improve my skills in software and processes development; and provide me with suitable opportunities to grow my technical and communication skills as an intern for a financial company."
     
 }
